@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: darkgray;
+}
+
+#app {
+	width: 90%;
+	margin: 5px auto;
+	background-color: #bcc6d3;
+	padding: 10px 10px;
+}
+
+.numbers {
+	width: 43%;
+	padding: 10px 10px;
+	margin-bottom: 30px;
+	color: aliceblue;
+	display: inline-block;
+}
+
+#pointerStart {
+	background-color: #78aab2;
+}
+
+#pointerEnd {
+	background-color: #b75151;
+	float: right;
+}
+
+#support {
+	display: block;
+	color: red;
+	background-color: aliceblue;
+	text-align: center;
+	padding: 0;
+	margin: 0 auto 30px auto;
+	width: 50%;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+#pad {
+	width: 100%;
+	height: 150px;
+	border: 2px solid black;
+	line-height: 150px;
+	color: aliceblue;
+	text-align: center;
+	background-color: #8b837e;
+	/* https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action  */
+	/* https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events */
+	touch-action: none;
+	-webkit-user-select: none;
+	/* Safari 3.1+ */
+	-moz-user-select: none;
+	/* Firefox 2+ */
+	-ms-user-select: none;
+	/* IE 10+ */
+	user-select: none;
+	/* Standard syntax */
+}
